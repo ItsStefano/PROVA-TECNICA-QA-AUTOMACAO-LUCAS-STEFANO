@@ -1,7 +1,7 @@
 {
   "name": "sysmap",
   "version": "1.0.0",
-  "description": "Prova técnica de QA Automatizador para a empresa Sysmap em conjunto com a Raízen, a linguagem utilizada será Javascript com o framework Cypress, com o objetivo de avaliar o conhecimento em um site de ecommerce",
+  "description": "Prova técnica de QA Automatizador para a empresa Sysmap em conjunto com a Raízen, com o objetivo de avaliar o conhecimento em um site de ecommerce, a linguagem utilizada será Javascript com o framework Cypress",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open"
