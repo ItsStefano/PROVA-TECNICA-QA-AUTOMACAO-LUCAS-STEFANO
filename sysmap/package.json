@@ -1,0 +1,22 @@
+{
+  "name": "sysmap",
+  "version": "1.0.0",
+  "description": "Teste de conhecimento de automacao com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsStefano/PROVA-TECNICA-QA-AUTOMACAO-LUCAS-STEFANO.git"
+  },
+  "author": "Lucas Stefano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItsStefano/PROVA-TECNICA-QA-AUTOMACAO-LUCAS-STEFANO/issues"
+  },
+  "homepage": "https://github.com/ItsStefano/PROVA-TECNICA-QA-AUTOMACAO-LUCAS-STEFANO#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
