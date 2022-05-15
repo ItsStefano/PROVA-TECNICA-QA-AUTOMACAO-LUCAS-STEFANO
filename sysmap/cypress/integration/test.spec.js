@@ -2,7 +2,7 @@ import searchProduct from '../pages/SearchProduct';
 import productCart from '../pages/ProductCart';
 require("cypress-xpath");
 
-describe('Add and Validate an Amazon Product to Cart', function () {
+describe('Add and Validate an Amazon Product into Cart', function () {
     Cypress.on('uncaught:exception', (err, runnable) => {
         return false
     });
