@@ -1,5 +1,6 @@
 {
     "viewportWidth": 1366,
     "viewportHeight": 768,
-    "baseUrl": "https://www.amazon.com.br"
+    "baseUrl": "https://www.amazon.com.br",
+    "testFiles": "**/*.feature"
 }
