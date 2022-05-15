@@ -1,5 +1,5 @@
-import SearchProduct from '../pages/SearchProduct';
-import ProductCart from '../pages/ProductCart';
+import searchProduct from '../pages/SearchProduct';
+import productCart from '../pages/ProductCart';
 require("cypress-xpath");
 
 describe('Add and Validate an Amazon Product to Cart', function () {
@@ -8,23 +8,29 @@ describe('Add and Validate an Amazon Product to Cart', function () {
     });
 
     before('Visit Amazon website', function () {
-        SearchProduct.goEcommerce('Olá')
+        searchProduct.goEcommerce('Olá')
+    });
+
+    beforeEach(function () {
+        cy.fixture('validation').then((validation) => {
+            this.validation = validation;
+        })
     })
 
     it('Search for a product', function () {
-        SearchProduct.seachItem('Notebook Acer')
-        SearchProduct.searchButton()
-    })
+        searchProduct.seachItem(this.validation.test.searchProduct)
+        searchProduct.searchButton()
+    });
 
     it('Access the chosen product and add it to the cart', function () {
-        ProductCart.foundProduct('Notebook Gamer Acer Nitro AN515-43-R9K7 AMD Ryzen 5 8GB RAM, 1TB + 256SSD Placa de Vídeo NVIDIA GeForce GTX 1650')
-        ProductCart.addCart()
-        ProductCart.inspect()
-        ProductCart.goToCart()
-    })
+        productCart.foundProduct(this.validation.test.product)
+        productCart.addCart()
+        productCart.inspect()
+        productCart.goToCart()
+    });
 
     it('Validate the chosen product in the cart', function () {
-        ProductCart.validadeProduct('Notebook Gamer Acer Nitro AN515-43-R9K7 AMD Ryzen 5 8GB RAM, 1TB + 256SSD Placa de Vídeo NVIDIA GeForce GTX 1650')
-    })
+        productCart.validadeProduct(this.validation.test.product)
+    });
 
 })
