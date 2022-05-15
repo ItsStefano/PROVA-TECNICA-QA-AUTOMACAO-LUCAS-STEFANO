@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ItsStefano/PROVA-TECNICA-QA-AUTOMACAO-LUCAS-STEFANO#readme",
   "devDependencies": {
     "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-xpath": "^1.6.2"
   }
 }
