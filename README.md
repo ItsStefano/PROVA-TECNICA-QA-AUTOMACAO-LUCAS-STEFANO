@@ -35,7 +35,7 @@ Após ter instalado os programas acima você precisará instalar o Cypress:
   
     * Caso queira, você poderá fazer o <clone> ou Download como zip deste, projeto.
   
- ## O projeto está separado por <elements>, <pages objects>, <fixtures> e o <script>.
+ ## O projeto está separado por `<elements>`, `<pages objects>`, `<fixtures>` e o `<script>`.
   Para validar os <elements> e os <pages objects> basta ir em <../cypress/suport/pages>;
   Quanto ao <script>, basta ir em <../cypress/integration>;
   Os <fixtures> armazenam os <strings>, se encontra em <../cypress/fixtures>
