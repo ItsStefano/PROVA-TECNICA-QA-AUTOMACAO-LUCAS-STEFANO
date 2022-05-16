@@ -8,7 +8,7 @@
 
  ## Pré-requisitos
     
-    Antes de começar, verifique se você atende aos seguintes requisitos:
+Antes de começar, verifique se você atende aos seguintes requisitos:
     
     * Visual Studio Code
     * Nodejs
@@ -16,22 +16,22 @@
     
  ## Instalação 
     
-    Após ter instalado os programas acima você precisará instalar o Cypress:
+Após ter instalado os programas acima você precisará instalar o Cypress:
    
-    *Execute o comando <npm init> e responda às perguntas que serão informadas
-    >package name: Nome que você quer dar a pasta do seu projeto;
-    >version: Versão do seu projeto;
-    >description: Descrição do seu projeto;
-    >entery point: Utilizado por programadores, pode manter o sugerido;
-    >test comand: Deve informar um comando que executará o Cypress, sugiro que utilize <npx cypress open> para abrir o executável;
-    >git repository: Caso queira informar seu repositório git;
-    >keywords: Pode-se utilizar palavras chaves para encontrar seu projeto, caso esteja na nuvem;
-    >author: Pode colocar seu nome próprio;
-    >license: Inserir MIT por ser uma licença open source;
-    >Digitar yes para confirmar a criação.
+    * Execute o comando <npm init> e responda às perguntas que serão informadas
+    package name: Nome que você quer dar a pasta do seu projeto;
+    version: Versão do seu projeto;
+    description: Descrição do seu projeto;
+    entery point: Utilizado por programadores, pode manter o sugerido;
+    test comand: Deve informar um comando que executará o Cypress, sugiro que utilize <npx cypress open> para abrir o executável;
+    git repository: Caso queira informar seu repositório git;
+    keywords: Pode-se utilizar palavras chaves para encontrar seu projeto, caso esteja na nuvem;
+    author: Pode colocar seu nome próprio;
+    license: Inserir MIT por ser uma licença open source;
+    Digitar yes para confirmar a criação.
     
     * Abra o terminal no diretório criado e execute o comando ``` <npm install cypress --save-dev> ```
-    > O <--save-dev> instalará o Cypress localmente como uma dependência de dev para o seu projeto.
+    O <--save-dev> instalará o Cypress localmente como uma dependência de dev para o seu projeto.
   
     * Caso queira, você poderá fazer o <clone> ou Download como zip deste, projeto.
   
@@ -54,4 +54,4 @@ And A user chooses the product "Notebook Gamer Acer Nitro AN515-43-R9K7 AMD Ryze
 Then A user must see the product chosen into his cart
   ```
   
-  ###Obrigado pela compreensão! 
+Obrigado pela compreensão! 
