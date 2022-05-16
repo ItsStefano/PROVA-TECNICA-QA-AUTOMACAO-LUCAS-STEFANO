@@ -1,5 +1,5 @@
-import searchProduct from '../pages/SearchProduct';
-import productCart from '../pages/ProductCart';
+import searchProduct from '../support/pages/SearchProduct';
+import productCart from '../support/pages/ProductCart';
 require("cypress-xpath");
 
 describe('Add and Validate an Amazon Product into Cart', function () {
@@ -8,7 +8,7 @@ describe('Add and Validate an Amazon Product into Cart', function () {
     });
 
     before('Visit Amazon website', function () {
-        searchProduct.goEcommerce('Olá')
+        searchProduct.goEcommerce()
     });
 
     beforeEach(function () {
