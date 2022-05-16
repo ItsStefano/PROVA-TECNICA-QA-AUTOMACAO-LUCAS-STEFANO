@@ -5,7 +5,7 @@
  Os elementos utilizados foram os mais variados possíveis para o fim de demonstrar as formas de encontra-los, quais sejam: `<class>`, `<id>`, `<xpath>`, entre outros.
   
  Para utilizar Xpath, há a necessidade de exportar a bibliotéca do Xpath <require("cypress-xpath");>, pois no Cypress, não há necessidade de utilizar o Xpath, tendo em vista que possui um próprio método de acessar tais elementos.
-<--->  
+
  ## Pré-requisitos
     
     Antes de começar, verifique se você atende aos seguintes requisitos:
